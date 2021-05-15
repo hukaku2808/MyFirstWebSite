@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+ }
+ 
+ /* header{
+ } */
+ 
+ 
+ div.top-img{
+ height: 220px;
+ width: 100%;
+ background-color: transparent;
+ background-image: url(img/1439490128-plants.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ text-align: center;
+ font-size: 40px;
+ margin-top: -75px;
+ } 
+
+ .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+
+  .li:last-child{
+    border-right: none;
+  }
+
+  
+  .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .li a:hover {
+    background-color: #111;
+  }
+
+  .center {
+    padding: 70px 0;
+    text-align: center;
+  }
+
+  .h1 {
+    text-align: center;
+    color: chartreuse;
+    font-size: 50px;
+    }
+
+  .p1{
+    float: right;
+    width: 78%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding-right: 13pt; /* if you want space between the images */
+    font-size: 20px;
+  }
+
+  .clock{
+    padding-left: 12pt;
+    float: left;
+  }
